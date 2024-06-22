@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: "Maven Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #9543f3;
+    margin-top: 20px;
+}
+
+h2{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #9795f0;
+    margin-block: 20px;
+    text-align: center;
+}
+
+.container_pai{
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    border-radius: 80px;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_pai h2{
+    margin-bottom: 20px;
+}
+
+.div_1{
+    transition: 1s;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.div_2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.amarelo{
+    transition: 1s;
+    background-color: yellow;
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    transition: 1s;
+    color: #fff;
+    background-color: crimson;
+}
+
+.quadrado_preto_pai{
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+}
+
+.quadrado_preto_filho{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.azul{
+    background-color: blue;
+    transition: 1s;
+}
+
+.input_boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+input{
+    margin-inline: 5px;
+}
+
+.campo_preenchido{
+    border: 5px solid green;
+}
